@@ -2,6 +2,7 @@ package cmd
 
 import (
 	"fastd/internal/errHandle"
+	"fastd/internal/executioner"
 	"fastd/internal/tool"
 	"fmt"
 	"os"
@@ -46,5 +47,5 @@ func download(args []string) error {
 		}
 	}
 
-	return nil
+	return executioner.Do(args[0], nil, conc)
 }
