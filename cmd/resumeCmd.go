@@ -1,10 +1,10 @@
 package cmd
 
 import (
-	"fastd/internal/errHandle"
-	"fastd/internal/executioner"
-	"fastd/internal/resume"
-	"fastd/internal/tool"
+	"github.com/topcoder520/fastd/internal/errHandle"
+	"github.com/topcoder520/fastd/internal/executioner"
+	"github.com/topcoder520/fastd/internal/resume"
+	"github.com/topcoder520/fastd/internal/tool"
 
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"

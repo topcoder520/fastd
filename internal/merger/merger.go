@@ -1,11 +1,12 @@
 package merger
 
 import (
-	"fastd/internal/tool"
 	"fmt"
 	"io"
 	"os"
 	"sort"
+
+	"github.com/topcoder520/fastd/internal/tool"
 
 	"github.com/cheggaaa/pb"
 	"github.com/pkg/errors"

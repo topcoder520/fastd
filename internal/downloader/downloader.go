@@ -2,7 +2,6 @@ package downloader
 
 import (
 	"crypto/tls"
-	"fastd/internal/tool"
 	"fmt"
 	"io"
 	"net"
@@ -13,6 +12,8 @@ import (
 	"strconv"
 	"strings"
 	"sync"
+
+	"github.com/topcoder520/fastd/internal/tool"
 
 	"github.com/cheggaaa/pb"
 	"github.com/pkg/errors"

@@ -1,14 +1,15 @@
 package executioner
 
 import (
-	"fastd/internal/downloader"
-	"fastd/internal/merger"
-	"fastd/internal/tool"
 	"fmt"
 	"os"
 	"os/signal"
 	"path/filepath"
 	"syscall"
+
+	"github.com/topcoder520/fastd/internal/downloader"
+	"github.com/topcoder520/fastd/internal/merger"
+	"github.com/topcoder520/fastd/internal/tool"
 
 	"github.com/pkg/errors"
 )

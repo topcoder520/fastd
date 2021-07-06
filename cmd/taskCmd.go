@@ -1,9 +1,9 @@
 package cmd
 
 import (
-	"fastd/internal/resume"
+	"github.com/topcoder520/fastd/internal/resume"
 
-	"fastd/internal/errHandle"
+	"github.com/topcoder520/fastd/internal/errHandle"
 
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"

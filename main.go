@@ -1,9 +1,10 @@
 package main
 
 import (
-	"fastd/cmd"
 	"fmt"
 	"os"
+
+	"github.com/topcoder520/fastd/cmd"
 )
 
 //https://github.com/Imputes/fdlr的练习项目

@@ -1,12 +1,13 @@
 package resume
 
 import (
-	"fastd/internal/tool"
 	"fmt"
 	"io/ioutil"
 	"os"
 	"path/filepath"
 	"strings"
+
+	"github.com/topcoder520/fastd/internal/tool"
 
 	"github.com/pkg/errors"
 )
